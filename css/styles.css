@@ -401,6 +401,7 @@ header{
     justify-content: center;
     color: #AFB1B8;
     border-radius: 50%;
+    transition: var(--timmer) var(--timing-function)
 }
 
 .social-media-item:not(:last-child) {
@@ -409,7 +410,7 @@ header{
 
 .social-media-link:hover, .social-media-link:focus, .footer-social-media-link:hover, .footer-social-media-link:focus {
     background-color: var(--accent-color);
-    color: white;
+    color: white;    
 }
 /* Our team section end */
 
@@ -448,6 +449,7 @@ header{
     fill: var(--accent-color);
     border: 1px solid var(--accent-color);
     border-radius: 4px;
+    transition: var(--timmer) var(--timing-function)
 }
 /* Regular customers section end */
 
@@ -482,7 +484,7 @@ header{
 .footer-address {  
     display: flex;     
     font-style: normal;
-    color: var(--white-text-color);      
+    color: var(--white-text-color);     
 }
 
 .footer-address-link {
@@ -491,6 +493,7 @@ header{
     line-height: calc(24/14);    
     margin-bottom: 2px;       
     color: var(--white-text-color);
+    transition: var(--timmer) var(--timing-function)
 }
 
 .footer-addreess:hover, .footer-addreess:focus {
@@ -502,6 +505,7 @@ header{
     font-size: 14px;
     line-height: calc(24/14);
     color: var(--footer-contact-color);
+    transition: var(--timmer) var(--timing-function)
 }
 
 .footer-contact:hover, .foot-contact:focus {
@@ -517,6 +521,7 @@ header{
     justify-content: center;
     border-radius: 50%;
     color: white;
+    transition: var(--timmer) var(--timing-function)
 }
 /* Footer section end */
 
