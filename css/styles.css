@@ -401,7 +401,7 @@ header{
     justify-content: center;
     color: #AFB1B8;
     border-radius: 50%;
-    transition: background-color var(--timmer) var(--timing-function)
+    transition: background-color, color var(--timmer) var(--timing-function)
 }
 
 .social-media-item:not(:last-child) {
