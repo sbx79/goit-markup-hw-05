@@ -43,7 +43,7 @@
       <section class="our-specialty-section">
         <div class="container solutions-our-specialty-flex">
         <h1 class="solutions-title">EFFECTIVE SOLUTIONS FOR YOUR BUSINESS</h1>
-        <button class="our-specialty-button" type="button">Request our service</button>
+        <button class="our-specialty-button" type="button" data-modal-open>Request our service</button>
       </div>
       </section>
       <!-- What the user can expect start -->
@@ -383,5 +383,15 @@
       </div>
     </div>
     </footer>
+    <div class="backdrop is-hidden" data-modal>
+      <div class="modal-window">
+        <button type="button" class="modal-button" data-modal-close>
+          <svg width="11" height="11" fill="#000000" class="icon-close">
+            <use href="./images/svg/icons.svg#icon-close"></use>
+          </svg>
+        </button>
+      </div>
+    </div>
+    <script src="./js/modal.js"></script>
   </body>
 </html>
